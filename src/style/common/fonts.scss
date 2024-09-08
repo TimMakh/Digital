@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Gilroy-rugular", sans-serif;
+  src: url("/src/fonts/gilroy-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-bold", sans-serif;
+  src: url("/src/fonts/gilroy-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Galien-rugular", sans-serif;
+  src: url("/src/fonts/Galien\ Regular.ttf") format("truetype");
+}
+html {
+  font-family: "Gilroy-rugular", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gilroy-bold", sans-serif;
+}

@@ -1,0 +1,32 @@
+.popup {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .popup__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 1000px;
+    padding: 56px;
+    background-color: $white-color;
+    max-width: 540px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .popup {
+    .popup__wrapper {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 90%;
+    }
+  }
+}

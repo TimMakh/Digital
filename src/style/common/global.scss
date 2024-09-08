@@ -1,0 +1,17 @@
+$padding-desktop: 213px;
+$main-color: #1f3f68;
+$white-color: white;
+$accent-color: #5a98d0;
+
+.btn__blue {
+  background-color: $accent-color;
+  color: $white-color;
+  border-radius: 10px;
+  border: unset;
+  width: 220px;
+  height: 56px;
+}
+.bold {
+  font-weight: bold;
+  margin-right: 15px;
+}
