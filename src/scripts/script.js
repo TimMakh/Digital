@@ -4,7 +4,7 @@ const mailInput = document.querySelector(".input__mail");
 const formSubmit = document.querySelector(".modal__btn");
 const nameInputText = document.querySelector(".input__name");
 const textAreaText = document.querySelector(".modal__form--textarea");
-const burgerBtn = document.querySelector(".header__burger");
+const footerBtn = document.querySelector(".footer__top--btn");
 const modal = document.querySelector(".modal");
 const modalWrapper = document.querySelector(".modal__wrapper");
 const popup = document.querySelector(".popup");
@@ -69,6 +69,6 @@ function isEmailValid(value) {
   return EMAIL_REGEXP.test(value);
 }
 
-burgerBtn.addEventListener("click", openModal);
+footerBtn.addEventListener("click", openModal);
 mailInput.addEventListener("input", onInput);
 modalForm.addEventListener("submit", sendForm);
